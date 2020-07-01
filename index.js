@@ -36,16 +36,13 @@ class Bird {
 
     // // For each class, create the method speak.
     speak() {
-        console.log("Test")
+        // bird.speak() returns 'It's me! [name], the parrot!'
         if (this.sex === "male") {
-            return `It's me! ${name}, the parrot!`
-
-        } else{
-            return `${name} says squawk!`
+            return `It's me! ${this.name}, the parrot!`
+        // bird2.speak() returns 'Squawk!'
+        } else {
+            return `${this.name} says squawk!`
        }
     }
 }
-let test = new Bird('Test', 'male')
-console.log("this.sex", this.sex)
-console.log("bird.sex", bird.sex)
-console.log("Bird.sex", Bird.sex)
+
