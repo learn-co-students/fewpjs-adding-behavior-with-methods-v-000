@@ -36,6 +36,7 @@ class Bird {
 
     // // For each class, create the method speak.
     speak() {
+        console.log("Test")
         if (this.sex === "male") {
             return `It's me! ${name}, the parrot!`
 
