@@ -42,8 +42,8 @@ class Bird {
 }
 let bird = new Bird("Pablo", "Male");
 let bird2 = new Bird("Mable", "Female");
-bird.speak();
-bird2.speak();
+// bird.speak();
+// bird2.speak();
 // class Bird {
 //     //...
 // }
