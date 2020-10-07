@@ -32,7 +32,7 @@ class Bird {
     }
 
     speak() {
-        if (this.sex === "Male") {
+        if (this.sex === "male") {
             return (`It's me! ${this.name}, the parrot!`);
         }
         else {
@@ -40,8 +40,8 @@ class Bird {
         }
     }
 }
-let bird = new Bird("Pablo", "Male");
-let bird2 = new Bird("Mable", "Female");
+let bird = new Bird("Pablo", "male");
+let bird2 = new Bird("Mable", "female");
 // bird.speak();
 // bird2.speak();
 // class Bird {
